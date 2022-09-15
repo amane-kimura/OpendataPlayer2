@@ -16,16 +16,15 @@ Frame "共通コロナ全国板" {
 				}
 			}
 			StringBox {
-				111 164 207 74  H CL T 0 R( V0 ) 
+				111 164 207 74  H CL T 0 
 				Style "TV用太角ゴシック体" 
 				Size 65 100 
 				Color { 255 255 255 255   AntiAlias 2 }
 				Proportional 
-				",,\(T( "コロナの情報" ) R( V1 ) C( T( "都道府県情報" ) C( "name" ) ) , L/U31310d)" 
+				",,\(T( "コロナの情報" ) R( V1 ) C( V0 ) , L/U31310d)" 
 				Size 30 100 
 				"人" 
-				Color { 41 41 41 255   AntiAlias 2 }
-			}
+			} 
 			String {
 				128 156 175  H CL R( V0 ) 
 				Style "TV用太角ゴシック体" 

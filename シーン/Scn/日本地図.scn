@@ -10,7 +10,7 @@ Frame "日本地図" {
 			Hidden 
 		} 
 		Group {
-			T( "コロナの情報" ) R( 1 ) 
+			T( "コロナの情報" ) 
 			Image "イメージ" {
 				555 115 510 137  CC 
 				Name "コロナ.png" 0 
@@ -29,7 +29,7 @@ Frame "日本地図" {
 				Size 64 100 
 				Color { 255 255 255 255   AntiAlias 2 }
 				Proportional 
-				"\(T( "都道府県情報" ) C( "name" ) , Ss) " 
+				"\(T( "都道府県情報" ) R( 1 ) C( "name" ) , Ss) " 
 				Size 80 100 
 				Color { 41 41 41 255   AntiAlias 2 }
 				Effect {
@@ -38,7 +38,7 @@ Frame "日本地図" {
 						Color { 240 245 0 255  }
 					}
 				}
-				",,\(T( "コロナの情報" ) R( V1 ) C( T( "都道府県情報" ) C( "name" ) ) , L/U31310d)" 
+				",,\(T( "コロナの情報" ) R( V1 ) C( "全国" ) , L/U31310d)" 
 				Size 50 100 
 				Color { 255 255 255 255   AntiAlias 2 }
 				Effect {
@@ -125,6 +125,7 @@ Frame "日本地図" {
 				"時" 
 				Offset 0 1 
 				"点" 
+				Offset 0 1 
 			} 
 		} 
 	} 
